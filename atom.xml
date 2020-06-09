@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://oncevan/oncevan.github.io/"/>
-  <updated>2020-05-28T12:02:56.673Z</updated>
+  <updated>2020-06-09T00:26:46.534Z</updated>
   <id>https://oncevan/oncevan.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TCP与UDP</title>
+    <link href="https://oncevan/oncevan.github.io/2020/06/01/TCP%E4%B8%8EUDP/"/>
+    <id>https://oncevan/oncevan.github.io/2020/06/01/TCP%E4%B8%8EUDP/</id>
+    <published>2020-06-01T10:23:44.000Z</published>
+    <updated>2020-06-09T00:26:46.534Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="https://oncevan/oncevan.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="计算机网络" scheme="https://oncevan/oncevan.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络之五层模型</title>
+    <link href="https://oncevan/oncevan.github.io/2020/05/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>https://oncevan/oncevan.github.io/2020/05/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2020-05-30T11:24:15.000Z</published>
+    <updated>2020-06-09T00:24:39.240Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://qa824ut89.bkt.clouddn.com/img/20200603155025.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;1、两台计算机需要通信的话，需要解决使用什么信号来传输比特的问题，这就划分了&lt;strong&gt;物理层&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="https://oncevan/oncevan.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="计算机网络" scheme="https://oncevan/oncevan.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>手写红黑树</title>
@@ -38,15 +86,130 @@
   </entry>
   
   <entry>
+    <title>动态代理</title>
+    <link href="https://oncevan/oncevan.github.io/2020/05/27/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/"/>
+    <id>https://oncevan/oncevan.github.io/2020/05/27/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/</id>
+    <published>2020-05-27T12:40:21.000Z</published>
+    <updated>2020-06-09T00:20:25.616Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;我们大家都知道微商代理，简单地说就是代替厂家卖商品，厂家“委托”代理为其销售商品。关于微商代理，首先我们从他们那里买东西时通常不知道背后的厂家究竟是谁，也就是说，“委托者”对我们来说是不可见的；其次，微商代理主要以朋友圈的人为目标客户，这就相当于为厂家做了一次对客户群体的“过滤”。我们把微商代理和厂家进一步抽象，前者可抽象为代理类，后者可抽象为委托类（被代理类）。通过使用代理，通常有两个优点，并且能够分别与我们提到的微商代理的两个特点对应起来：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;优点一：可以隐藏委托类的实现；&lt;/li&gt;&lt;li&gt;优点二：可以实现客户与委托类间的解耦，在不修改委托类代码的情况下能够做一些额外的处理。&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="设计模式" scheme="https://oncevan/oncevan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="Java基础" scheme="https://oncevan/oncevan.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="设计模式" scheme="https://oncevan/oncevan.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringMVC</title>
+    <link href="https://oncevan/oncevan.github.io/2020/05/25/SpringMVC/"/>
+    <id>https://oncevan/oncevan.github.io/2020/05/25/SpringMVC/</id>
+    <published>2020-05-25T14:20:29.000Z</published>
+    <updated>2020-06-09T00:17:42.432Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1-MVC&quot;&gt;&lt;a href=&quot;#1-MVC&quot; class=&quot;headerlink&quot; title=&quot;1 MVC&quot;&gt;&lt;/a&gt;1
+        
+      
+    
+    </summary>
+    
+    
+      <category term="SpringMVC" scheme="https://oncevan/oncevan.github.io/categories/SpringMVC/"/>
+    
+    
+      <category term="SpringMVC" scheme="https://oncevan/oncevan.github.io/tags/SpringMVC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MyBatis一级缓存</title>
+    <link href="https://oncevan/oncevan.github.io/2020/05/23/MyBatis%E4%B8%80%E7%BA%A7%E7%BC%93%E5%AD%98/"/>
+    <id>https://oncevan/oncevan.github.io/2020/05/23/MyBatis%E4%B8%80%E7%BA%A7%E7%BC%93%E5%AD%98/</id>
+    <published>2020-05-23T12:40:13.000Z</published>
+    <updated>2020-06-09T00:15:58.590Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;0-写在前面&quot;&gt;&lt;a href=&quot;#0-写在前面&quot; class=&quot;headerlink&quot; title=&quot;0 写在前面&quot;&gt;&lt;/a&gt;0 写在前面&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;MyBatis&lt;/strong&gt;是一个简单，小巧但功能非常强大的ORM开源框架，它的功能强大也体现在它的缓存机制上。&lt;strong&gt;MyBatis&lt;/strong&gt;提供了一级缓存、二级缓存 这两个缓存机制，能够很好地处理和维护缓存，以提高系统的性能。本文的目的则是向读者详细介绍&lt;strong&gt;MyBatis&lt;/strong&gt;的一级缓存，深入源码，解析&lt;strong&gt;MyBatis&lt;/strong&gt;一级缓存的实现原理，并且针对一级缓存的特点提出了在实际使用过程中应该注意的事项。&lt;/p&gt;&lt;p&gt;本文主要讨论5个问题：&lt;br&gt;1、什么是一级缓存？为什么使用一级缓存？&lt;/p&gt;&lt;p&gt;2、&lt;strong&gt;MyBatis&lt;/strong&gt;的一级缓存是怎样组织的？（即&lt;code&gt;SqlSession&lt;/code&gt;对象中的缓存是怎样组织的？）&lt;/p&gt;&lt;p&gt;3、一级缓存的生命周期有多长？&lt;/p&gt;&lt;p&gt;4、Cache接口的设计以及CacheKey的定义&lt;/p&gt;&lt;p&gt;5、一级缓存的性能分析以及应该注意的事项&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="MyBatis" scheme="https://oncevan/oncevan.github.io/categories/MyBatis/"/>
+    
+    
+      <category term="MyBatis" scheme="https://oncevan/oncevan.github.io/tags/MyBatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MyBatis概览</title>
+    <link href="https://oncevan/oncevan.github.io/2020/05/19/MyBatis/"/>
+    <id>https://oncevan/oncevan.github.io/2020/05/19/MyBatis/</id>
+    <published>2020-05-19T12:39:21.000Z</published>
+    <updated>2020-06-09T00:14:34.130Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1-MyBatis与JDBC&quot;&gt;&lt;a href=&quot;#1-MyBatis与JDBC&quot; class=&quot;headerlink&quot; title=&quot;1 MyBatis与JDBC&quot;&gt;&lt;/a&gt;1 MyBatis与JDBC&lt;/h2&gt;&lt;h3 id=&quot;1-1-jdbc编程步骤&quot;&gt;&lt;a href=&quot;#1-1-jdbc编程步骤&quot; class=&quot;headerlink&quot; title=&quot;1.1  jdbc编程步骤&quot;&gt;&lt;/a&gt;1.1 jdbc编程步骤&lt;/h3&gt;&lt;p&gt;1、 加载数据库驱动&lt;/p&gt;&lt;p&gt;2、 创建并获取数据库链接&lt;/p&gt;&lt;p&gt;3、 创建jdbcstatement对象&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="MyBatis" scheme="https://oncevan/oncevan.github.io/categories/MyBatis/"/>
+    
+    
+      <category term="MyBatis" scheme="https://oncevan/oncevan.github.io/tags/MyBatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AQS</title>
+    <link href="https://oncevan/oncevan.github.io/2020/05/17/AQS/"/>
+    <id>https://oncevan/oncevan.github.io/2020/05/17/AQS/</id>
+    <published>2020-05-17T12:39:21.000Z</published>
+    <updated>2020-06-09T00:10:08.530Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;AQS三要素&quot;&gt;&lt;a href=&quot;#AQS三要素&quot; class=&quot;headerlink&quot; title=&quot;AQS三要素&quot;&gt;&lt;/a&gt;AQS三要素&lt;/h2&gt;&lt;h3 id=&quot;1、state状态&quot;&gt;&lt;a href=&quot;#1、state状态&quot; class=&quot;headerlink&quot; title=&quot;1、state状态&quot;&gt;&lt;/a&gt;1、state状态&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;这里&lt;code&gt;state&lt;/code&gt;的具体含义，会根据具体实现类的不同而不同，比如在Semaphore里，它表示“剩余许可证的数量”，而在CountDownLatch里，它表示“还需要倒数的数量”&lt;/li&gt;&lt;li&gt;state是volatile修饰的，会被并发地修改，所以所有修改state地方法都需要保证线程安全，比如getState，setState以及compareAndSetState操作来读取和更新这个状态。这些方法都依赖于j.u.c.atomic包的支持&lt;/li&gt;&lt;li&gt;在ReentrantLock中，state用来表示“锁”的占有情况，包括可重入计数，当state的值为0的时候，标识改Lock不被任何线程所占有，其他线程就可以来占有&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/categories/J-U-C/"/>
+    
+    
+      <category term="多线程与并发" scheme="https://oncevan/oncevan.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/"/>
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/tags/J-U-C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>线程协作</title>
     <link href="https://oncevan/oncevan.github.io/2020/05/15/%E7%BA%BF%E7%A8%8B%E5%8D%8F%E4%BD%9C/"/>
     <id>https://oncevan/oncevan.github.io/2020/05/15/%E7%BA%BF%E7%A8%8B%E5%8D%8F%E4%BD%9C/</id>
     <published>2020-05-15T14:22:13.000Z</published>
-    <updated>2020-05-21T15:43:53.121Z</updated>
+    <updated>2020-06-09T00:34:36.854Z</updated>
     
     <summary type="html">
     
-      &lt;!-- build time:Thu May 21 2020 23:45:16 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1、控制并发流程&quot;&gt;&lt;a href=&quot;#1、控制并发流程&quot; class=&quot;headerlink&quot; title=&quot;1、控制并发流程&quot;&gt;&lt;/a&gt;1、控制并发流程&lt;/h2&gt;&lt;h3 id=&quot;1-1、什么是控制并发流程&quot;&gt;&lt;a href=&quot;#1-1、什么是控制并发流程&quot; class=&quot;headerlink&quot; title=&quot;1.1、什么是控制并发流程&quot;&gt;&lt;/a&gt;1.1、什么是控制并发流程&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;控制并发流程的工具类，作用就是帮助我们程序员更容易的让线程之间合作&lt;/li&gt;&lt;li&gt;让线程之间相互配合，来满足业务逻辑&lt;/li&gt;&lt;li&gt;比如让线程A等待线程B执行完毕后再执行等合作策略
+      &lt;!-- build time:Tue Jun 09 2020 08:35:02 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1、控制并发流程&quot;&gt;&lt;a href=&quot;#1、控制并发流程&quot; class=&quot;headerlink&quot; title=&quot;1、控制并发流程&quot;&gt;&lt;/a&gt;1、控制并发流程&lt;/h2&gt;&lt;h3 id=&quot;1-1、什么是控制并发流程&quot;&gt;&lt;a href=&quot;#1-1、什么是控制并发流程&quot; class=&quot;headerlink&quot; title=&quot;1.1、什么是控制并发流程&quot;&gt;&lt;/a&gt;1.1、什么是控制并发流程&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;控制并发流程的工具类，作用就是帮助我们程序员更容易的让线程之间合作&lt;/li&gt;&lt;li&gt;让线程之间相互配合，来满足业务逻辑&lt;/li&gt;&lt;li&gt;比如让线程A等待线程B执行完毕后再执行等合作策略&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -63,19 +226,159 @@
     <link href="https://oncevan/oncevan.github.io/2020/05/15/%E5%B9%B6%E5%8F%91%E5%AE%B9%E5%99%A8/"/>
     <id>https://oncevan/oncevan.github.io/2020/05/15/%E5%B9%B6%E5%8F%91%E5%AE%B9%E5%99%A8/</id>
     <published>2020-05-15T13:49:14.000Z</published>
-    <updated>2020-05-21T15:43:41.355Z</updated>
+    <updated>2020-06-09T00:10:38.499Z</updated>
     
     <summary type="html">
     
-      &lt;!-- build time:Thu May 21 2020 23:45:16 GMT+0800 (GMT+08:00) --&gt;&lt;h3 id=&quot;1、并发容器概览&quot;&gt;&lt;a href=&quot;#1、并发容器概览&quot; class=&quot;headerlink&quot; title=&quot;1、并发容器概览&quot;&gt;&lt;/a&gt;1、并发容器概览&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;ConcurrentHashMap&lt;/code&gt;：线程安全的HashMap&lt;/li&gt;&lt;li&gt;&lt;code&gt;CopyOnWriteArrayList&lt;/code&gt;：线程安全的List&lt;/li&gt;&lt;li&gt;&lt;code&gt;BlockingQueue&lt;/code&gt;：这是一个接口，表示阻塞队列，非常适用于作为数据共享的通道&lt;/li&gt;&lt;li&gt;&lt;code&gt;ConcurrentLinkedQueue&lt;/code&gt;：高效的非阻塞并发队列，使用链表实现。可以看做一个线程安全的LinkedList&lt;/li&gt;&lt;li&gt;&lt;code&gt;ConcurrentSkipListMap&lt;/code&gt;：是一个Map，使用跳表的数据结构进行快速查找
+      &lt;!-- build time:Tue Jun 09 2020 08:31:58 GMT+0800 (GMT+08:00) --&gt;&lt;h3 id=&quot;1、并发容器概览&quot;&gt;&lt;a href=&quot;#1、并发容器概览&quot; class=&quot;headerlink&quot; title=&quot;1、并发容器概览&quot;&gt;&lt;/a&gt;1、并发容器概览&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;ConcurrentHashMap&lt;/code&gt;：线程安全的HashMap&lt;/li&gt;&lt;li&gt;&lt;code&gt;CopyOnWriteArrayList&lt;/code&gt;：线程安全的List&lt;/li&gt;&lt;li&gt;&lt;code&gt;BlockingQueue&lt;/code&gt;：这是一个接口，表示阻塞队列，非常适用于作为数据共享的通道&lt;/li&gt;&lt;li&gt;&lt;code&gt;ConcurrentLinkedQueue&lt;/code&gt;：高效的非阻塞并发队列，使用链表实现。可以看做一个线程安全的LinkedList&lt;/li&gt;&lt;li&gt;&lt;code&gt;ConcurrentSkipListMap&lt;/code&gt;：是一个Map，使用跳表的数据结构进行快速查找&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
     
-      <category term="多线程与并发" scheme="https://oncevan/oncevan.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/"/>
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/categories/J-U-C/"/>
     
     
       <category term="多线程与并发" scheme="https://oncevan/oncevan.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/"/>
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/tags/J-U-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不变性与final</title>
+    <link href="https://oncevan/oncevan.github.io/2020/05/15/%E4%B8%8D%E5%8F%98%E6%80%A7%E4%B8%8Efinal/"/>
+    <id>https://oncevan/oncevan.github.io/2020/05/15/%E4%B8%8D%E5%8F%98%E6%80%A7%E4%B8%8Efinal/</id>
+    <published>2020-05-15T13:30:24.000Z</published>
+    <updated>2020-06-09T00:11:06.786Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1、不变性&quot;&gt;&lt;a href=&quot;#1、不变性&quot; class=&quot;headerlink&quot; title=&quot;1、不变性&quot;&gt;&lt;/a&gt;1、不变性&lt;/h2&gt;&lt;h3 id=&quot;1-1、什么是不变性（Immutable）&quot;&gt;&lt;a href=&quot;#1-1、什么是不变性（Immutable）&quot; class=&quot;headerlink&quot; title=&quot;1.1、什么是不变性（Immutable）&quot;&gt;&lt;/a&gt;1.1、什么是不变性（Immutable）&lt;/h3&gt;&lt;p&gt;如果对象在被创建后，状态就不能被修改，那么它就是不可变的。&lt;/p&gt;&lt;p&gt;具有不变性的对象一定是 线程安全的，我们不需要对其采取任何额外的安全措施，也能保证线程安全&lt;/p&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Person&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; age = &lt;span class=&quot;number&quot;&gt;18&lt;/span&gt;;&lt;span class=&quot;comment&quot;&gt;//如果用private修饰，那么别的类不仅不可以修改，而且读取也可以&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;final&lt;/span&gt; String name = &lt;span class=&quot;string&quot;&gt;&quot;Alice&quot;&lt;/span&gt;;&lt;span class=&quot;comment&quot;&gt;//只用final，别的类仅可以读取，不可修改&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; score = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;span class=&quot;comment&quot;&gt;//如果加了这行代码，那么Person就不具备不变性&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/categories/J-U-C/"/>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/tags/J-U-C/"/>
+    
+      <category term="Java基础之语法" scheme="https://oncevan/oncevan.github.io/tags/Java%E5%9F%BA%E7%A1%80%E4%B9%8B%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CAS</title>
+    <link href="https://oncevan/oncevan.github.io/2020/05/01/CAS/"/>
+    <id>https://oncevan/oncevan.github.io/2020/05/01/CAS/</id>
+    <published>2020-05-01T12:29:17.000Z</published>
+    <updated>2020-06-09T00:04:48.927Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1、什么是CAS&quot;&gt;&lt;a href=&quot;#1、什么是CAS&quot; class=&quot;headerlink&quot; title=&quot;1、什么是CAS&quot;&gt;&lt;/a&gt;1、什么是CAS&lt;/h2&gt;&lt;p&gt;判断内存中某个位置的值是否为预期值，如果是则更改为新的值，这个过程是原子的，中间不予许中断，解决数据一致性问题。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://pics.oncevan.cn/img/1586255995702.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/categories/J-U-C/"/>
+    
+    
+      <category term="多线程与并发" scheme="https://oncevan/oncevan.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/"/>
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/tags/J-U-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Atomic包</title>
+    <link href="https://oncevan/oncevan.github.io/2020/04/29/Atomic%E5%8C%85/"/>
+    <id>https://oncevan/oncevan.github.io/2020/04/29/Atomic%E5%8C%85/</id>
+    <published>2020-04-29T13:29:02.000Z</published>
+    <updated>2020-06-09T00:03:18.470Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1、原子类&quot;&gt;&lt;a href=&quot;#1、原子类&quot; class=&quot;headerlink&quot; title=&quot;1、原子类&quot;&gt;&lt;/a&gt;1、原子类&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;什么是原子类？&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;不可分割&lt;/li&gt;&lt;li&gt;一个操作是不可中断的，即便是多线程的情况下也可以保证&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;有什么作用&lt;/strong&gt;？&lt;/p&gt;&lt;p&gt;原子类的作用和锁类似，是为了保证并发情况下线程安全。不过与锁相比，有一定的优势：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;粒度更细&lt;/strong&gt;：原子变量可以把竞争范围缩小到变量级别，这是我们可以获得的最细粒度的情况了，通常锁的粒度都要大于原子变量的粒度&lt;/li&gt;&lt;li&gt;&lt;strong&gt;效率更高&lt;/strong&gt;：通常，使用原子类的效率会比使用锁的效率更高，除了高度竞争的情况&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/categories/J-U-C/"/>
+    
+    
+      <category term="多线程与并发" scheme="https://oncevan/oncevan.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/"/>
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/tags/J-U-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ThreadLocal</title>
+    <link href="https://oncevan/oncevan.github.io/2020/04/29/ThreadLocal/"/>
+    <id>https://oncevan/oncevan.github.io/2020/04/29/ThreadLocal/</id>
+    <published>2020-04-29T10:21:34.000Z</published>
+    <updated>2020-06-08T23:58:50.328Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1、两大使用场景&quot;&gt;&lt;a href=&quot;#1、两大使用场景&quot; class=&quot;headerlink&quot; title=&quot;1、两大使用场景&quot;&gt;&lt;/a&gt;1、两大使用场景&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;典型场景1&lt;/code&gt;：每个线程需要一个&lt;strong&gt;独享的对象&lt;/strong&gt;（通常是工具类，典型需要使用的类有&lt;code&gt;SimpleDate Format&lt;/code&gt;和&lt;code&gt;Random&lt;/code&gt;）&lt;/li&gt;&lt;li&gt;&lt;code&gt;典型场景2&lt;/code&gt;：&lt;strong&gt;每个线程内&lt;/strong&gt;需要保存全局变量（例如在拦截器中获取用户信息），可以让不同方法直接使用，&lt;strong&gt;避免参数传递的麻烦&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/categories/J-U-C/"/>
+    
+    
+      <category term="多线程与并发" scheme="https://oncevan/oncevan.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91/"/>
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/tags/J-U-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>锁</title>
+    <link href="https://oncevan/oncevan.github.io/2020/04/28/%E9%94%81/"/>
+    <id>https://oncevan/oncevan.github.io/2020/04/28/%E9%94%81/</id>
+    <published>2020-04-28T11:34:15.000Z</published>
+    <updated>2020-06-09T00:24:46.140Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;1、Lock接口&quot;&gt;&lt;a href=&quot;#1、Lock接口&quot; class=&quot;headerlink&quot; title=&quot;1、Lock接口&quot;&gt;&lt;/a&gt;1、Lock接口&lt;/h2&gt;&lt;h3 id=&quot;1-1、Lock简介、地位、作用&quot;&gt;&lt;a href=&quot;#1-1、Lock简介、地位、作用&quot; class=&quot;headerlink&quot; title=&quot;1.1、Lock简介、地位、作用&quot;&gt;&lt;/a&gt;1.1、Lock简介、地位、作用&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;锁是一种工具，用于控制对共享资源的访问&lt;/li&gt;&lt;li&gt;&lt;code&gt;Lock&lt;/code&gt;和&lt;code&gt;synchronized&lt;/code&gt;，这两个是最常见的锁，它们都可以达到线程安全的目的，但是在使用和功能上又有较大的不同&lt;/li&gt;&lt;li&gt;&lt;code&gt;Lock&lt;/code&gt;并不是用来替代&lt;code&gt;synchronized&lt;/code&gt;的，而是当使用&lt;code&gt;synchronized&lt;/code&gt;不合适或不足以满足要求的时候，来提供高级功能的。&lt;/li&gt;&lt;li&gt;&lt;code&gt;Lock&lt;/code&gt;接口最常见的实现类是&lt;code&gt;ReentrantLock&lt;/code&gt;&lt;/li&gt;&lt;li&gt;通常情况下，&lt;code&gt;Lock&lt;/code&gt;只允许一个线程来访问这个共享资源。不过有的时候，一些特殊的实现也允许并发访问，比如&lt;code&gt;ReadWriteLock&lt;/code&gt;里面的&lt;code&gt;ReadLock&lt;/code&gt;。&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/categories/J-U-C/"/>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/tags/J-U-C/"/>
+    
+      <category term="锁" scheme="https://oncevan/oncevan.github.io/tags/%E9%94%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>线程容器</title>
+    <link href="https://oncevan/oncevan.github.io/2020/04/27/%E7%BA%BF%E7%A8%8B%E6%B1%A0/"/>
+    <id>https://oncevan/oncevan.github.io/2020/04/27/%E7%BA%BF%E7%A8%8B%E6%B1%A0/</id>
+    <published>2020-04-27T08:39:14.000Z</published>
+    <updated>2020-06-08T23:56:26.619Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Tue Jun 09 2020 08:31:59 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;线程池的好处&quot;&gt;&lt;a href=&quot;#线程池的好处&quot; class=&quot;headerlink&quot; title=&quot;线程池的好处&quot;&gt;&lt;/a&gt;线程池的好处&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;加快响应速度&lt;/li&gt;&lt;li&gt;合理利用cpu和内存&lt;/li&gt;&lt;li&gt;统一管理 （创建线程开销太大，线程池避免了反复创建并销毁线程所带来的开销问题）&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/categories/J-U-C/"/>
+    
+    
+      <category term="J.U.C" scheme="https://oncevan/oncevan.github.io/tags/J-U-C/"/>
+    
+      <category term="线程池" scheme="https://oncevan/oncevan.github.io/tags/%E7%BA%BF%E7%A8%8B%E6%B1%A0/"/>
     
   </entry>
   
